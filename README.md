@@ -19,7 +19,7 @@ O **ETV** é um projeto desenvolvido com o objetivo de atrair público para a F�
 
 ## Equipe de Desenvolvimento
 
-- Erick Fujita [RM556096]
+- Erick Fujita [556096]
 - Fabiano Zague [555524]
 - João Vitor Boht [558690]
 - Matheus Condez [556954]
@@ -34,7 +34,7 @@ O **ETV** é um projeto desenvolvido com o objetivo de atrair público para a F�
 
 2. **Navegue até o diretório do projeto:**
     ```bash
-    cd ETV
+    cd etv-webdev
     ```
 
 3. **Rode o projeto em um servidor local. Recomendamos o uso da extensão Go Live do Visual Studio Code.**
