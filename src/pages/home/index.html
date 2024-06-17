@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- Rodar a aplicação em servidor local para que os imports sejam realmente obtidos pela pagina -->
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="/public/css/global.css">
+    <link rel="stylesheet" href="/public/css/fonts.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <nav>
+            <div>
+                <img src="/public/assets/images/jpeg/formulae.png" class="logo" alt="Logo do site">
+            </div>
+
+            <div id="hamburguer">
+                <img src="/public/assets/images/svg/hamburguer.svg" alt="hamburguer icone">
+            </div>
+
+            <ul class="menu-list" id="menu">
+                <li><a href="#noticias" onclick="scrollToSection('noticias')">Noticias</a></li>
+                <li><a href="#galeria" onclick="scrollToSection('galeria')">Fotos</a></li>
+                <li><a href="#quiz" onclick="scrollToSection('quiz')">Quiz</a></li>
+                <li><a href='../../index.html'>Sair</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="noticias">
+                <h2>Acompanhe aqui as ultimas noticias.</h2>
+
+                <div class="container-noticias">
+                    <div class="noticia">
+                        <div class="noticia-img">
+                            <img src="/public/assets/images/jpeg/fe_car_1.jpeg" alt="Carro FE">
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <div class="noticia">
+                        <div class="noticia-img">
+                            <img src="/public/assets/images/jpeg/fe_car_2.jpeg" alt="Carro FE">
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <div class="noticia">
+                        <div class="noticia-img">
+                            <img src="/public/assets/images/jpeg/fe_car_3.jpeg" alt="Carro FE">
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div id="galeria">
+                <h2>Nossas fotos</h2>
+
+                <div class="carrossel">
+                    <div class="container-image">
+                        <img src="/public/assets/images/jpeg/fe_car_1.jpeg" alt="" class="img-carrossel">
+                        <img src="/public/assets/images/jpeg/fe_car_2.jpeg" alt="" class="img-carrossel">
+                        <img src="/public/assets/images/jpeg/fe_car_3.jpeg" alt="" class="img-carrossel">
+                    </div>
+                </div>
+            </div>
+            <div id="quiz">
+                <h2>Quiz</h2>
+
+                <div id="quiz-game">
+                    <p id="pegunta">
+                        Qual foi o ano de criação da Formula E?
+                    </p>
+                    <div id="respostas">
+                        <input type="radio" id="respostaA" name="resposta" value="2011" required>
+                        <label for="respostaA">A) 2011</label><br>
+                      
+                        <input type="radio" id="respostaB" name="resposta" value="2014" required>
+                        <label for="respostaB">B) 2014</label><br>
+                      
+                        <input type="radio" id="respostaC" name="resposta" value="2019" required>
+                        <label for="respostaC">C) 2019</label><br>
+                      
+                        <input type="radio" id="respostaD" name="resposta" value="2002" required>
+                        <label for="respostaD">D) 2002</label><br>
+                    </div>
+
+                    
+                    <button id="enviar" onclick="responderQuiz()">Finalizar</button>
+
+
+            </div>
+        </main>
+
+
+
+
+    </div>
+
+    
+
+    <script src="script.js"></script>
+    <script src="/public/js/nav.js"></script>
+</body>
+</html>
