@@ -29,7 +29,7 @@ O **ETV** é um projeto desenvolvido com o objetivo de atrair público para a F�
 
 1. **Clone o repositório do projeto:**
     ```bash
-    git clone https://github.com/seu-usuario/ETV.git
+    git clone https://github.com/challenge-webdev/etv-webdev.git
     ```
 
 2. **Navegue até o diretório do projeto:**
